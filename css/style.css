@@ -151,6 +151,7 @@ input{
     #container{
         flex-direction: column;
         height: 600px;
+        width:60%;
        
     }
     #container>div{
@@ -161,7 +162,20 @@ input{
         padding:20px;
         display: flex;
     }
-   
-    
-    
+  }
+@media only screen and (max-width: 400px) {
+    #container{
+        flex-direction: column;
+        height: 600px;
+        width:80%;
+       
+    }
+    #container>div{
+        width:100%;
+    }
+    #two{
+        box-sizing: border-box;
+        padding:20px;
+        display: flex;
+    }
   }
